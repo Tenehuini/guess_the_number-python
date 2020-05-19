@@ -8,7 +8,6 @@ if len(sys.argv) > 2:
     exit()
 
 max_number = sys.argv[1] if len(sys.argv) == 2 else 9
-print(max_number)
 
 try:
     max_number = int(max_number)
